@@ -1,0 +1,16 @@
+;admin
+
+email : younes@gmail.com
+password: 1234567
+
+;teacher
+
+email : prof@gmail.com
+password:  1234567
+
+;student
+
+email :nassim@gmail.com
+password:000000
+
+

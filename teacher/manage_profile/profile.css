@@ -1,0 +1,23 @@
+.ss {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    background-color: #2ea2cd;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+a{
+    text-decoration: none;
+    color:#fff;
+}
+.ss:hover {
+    background-color: #1c7a9b;
+}
+.bb{
+    background-color: #1c7a9b;
+   }

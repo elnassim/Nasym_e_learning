@@ -1,0 +1,129 @@
+/* content style*/
+.content {
+    margin-left: 200px;
+    padding-bottom: 30px; /* Hauteur du footer */
+    padding-left: 20px;
+    margin-bottom: 50px;
+}
+body {
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Footer styles */
+
+  
+  .social-icons a {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #2ea2cd;
+  }
+
+  .copyright p {
+    font-size: 0.9rem;
+    color: #bbb;
+    margin-top: 1rem;
+  }
+
+
+  /*  header style  */
+  .container {
+    display: flex;
+    flex-direction: column;
+    
+}
+.sidebar.close .bottom_content {
+    width: 200px; 
+    left: 15px;
+  }
+  .sidebar.close .bottom span {
+    display: none;
+  }
+  .sidebar.hoverable .collapse_sidebar {
+    display: none;
+  }
+  .sidebar {
+      width: 200px;
+      height: 100vh;
+      background-color: #0077b6; /* Blue background */
+      color: #fff;
+      position: fixed;
+      top: 0;
+      left: 0;
+      overflow-x: hidden;
+      padding-top: 20px;
+      border-bottom: 2px solid #fff;
+  }
+  
+  .sidebar-header {
+      padding: 10px 20px;
+      text-align: center;
+  }
+  
+  .sidebar-header .logo img {
+      max-width: 100%;
+      height: auto;
+  }
+  
+  .sidebar-menu {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+  }
+  
+  .sidebar-menu li a {
+      display: block;
+      color: #fff;
+      padding: 12px 20px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+  }
+  
+  .sidebar-menu li a:hover {
+      background-color: #005388; /* Darker shade of blue on hover */
+  }
+  .logo {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #fff;
+  }
+  .lgg{
+    /* Adjust the height as needed */
+    width: 90px;
+    height: 90px; /* Adjust the width as needed */
+}
+.sideba {
+    width: 200px;
+    background-color:#0077b6;
+    padding: 20px;
+  }
+  .profile-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .profile-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin-right: 20px; /* Espacement entre les éléments du menu */
+  }
+  body{
+    margin: 0px;
+    padding: 0;
+  }

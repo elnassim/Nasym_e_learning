@@ -1,0 +1,27 @@
+.content {
+    margin-left: 200px;
+    flex: 1 auto;
+}
+        .ss {
+            display: block;
+            width: 100%;
+            padding: 1rem;
+            background-color: #2ea2cd;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        a{
+            text-decoration: none;
+            color:#fff;
+        }
+
+        .ss:hover {
+            background-color: #1c7a9b;
+        }
